@@ -10,6 +10,6 @@ jobs:
       - checkout
       - node/install-packages
       - node/with-cache:
-        steps:
-          - run: npm install
+#         steps:
+#           - run: npm install
       - run: npm run test
